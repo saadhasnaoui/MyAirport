@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirport.EF</name>
+    </assembly>
+    <members>
+        <member name="T:PC.MyAirport.EF.Bagage">
+            <summary>
+            Objet Bagage
+            </summary>
+        </member>
+        <member name="P:PC.MyAirport.EF.Bagage.BagageId">
+            <summary>
+            Id clé primaire de l'objet bagage
+            </summary>
+        </member>
+        <member name="P:PC.MyAirport.EF.Bagage.VolId">
+            <summary>
+            Vol associé au bagage
+            </summary>
+        </member>
+        <member name="P:PC.MyAirport.EF.Bagage.CodeIata">
+            <summary>
+            CoddeIata du bagage, unique à un instant t
+            </summary>
+        </member>
+        <member name="P:PC.MyAirport.EF.Bagage.DateCreation">
+            <summary>
+            Date à laquelle le bagage a été créé par la compagnie
+            </summary>
+        </member>
+        <member name="P:PC.MyAirport.EF.Bagage.Vol">
+            <summary>
+            Propriété de navigation
+            </summary>
+        </member>
+    </members>
+</doc>
